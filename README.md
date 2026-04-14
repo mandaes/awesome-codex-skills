@@ -59,6 +59,7 @@ The installer fetches the skill and places it in `$CODEX_HOME/skills/<skill-name
 
 ## Contents
 
+- [Bernstein](https://github.com/chernistry/bernstein) - Multi-agent orchestrator with Codex CLI adapter. Runs parallel Codex agents in isolated git worktrees with quality gates.
 - [What Are Codex Skills?](#what-are-codex-skills)
 - [Skills](#skills)
   - [Development & Code Tools](#development--code-tools)
