@@ -2,3 +2,5 @@ interface:
   display_name: "Agent Deep Links"
   short_description: "Build and verify app deep links for Slack and handoffs."
   default_prompt: "Create or validate deep links for Codex/Cursor/VS Code and provide fallbacks for unsupported apps."
+  # Personal note: also useful for Windsurf and Zed deep links - may add support later
+  fallback_behavior: "warn"  # changed from silent fail so I can see when a deep link isn't supported
