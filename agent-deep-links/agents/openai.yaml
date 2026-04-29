@@ -3,4 +3,6 @@ interface:
   short_description: "Build and verify app deep links for Slack and handoffs."
   default_prompt: "Create or validate deep links for Codex/Cursor/VS Code and provide fallbacks for unsupported apps."
   # Personal note: also useful for Windsurf and Zed deep links - may add support later
+  # TODO: add Windsurf deep link schema once I figure out the URI format
   fallback_behavior: "warn"  # changed from silent fail so I can see when a deep link isn't supported
+  fallback_message: "Deep link not supported for this app. Falling back to plain URL."
