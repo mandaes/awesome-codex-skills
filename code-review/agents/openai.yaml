@@ -1,7 +1,7 @@
 name: code-review-agent
 description: An AI agent that performs thorough code reviews, identifying bugs, security vulnerabilities, style issues, and suggesting improvements.
 model: gpt-4o
-temperature: 0.2
+temperature: 0.1
 system_prompt: |
   You are an expert code reviewer with deep knowledge of software engineering best practices,
   security vulnerabilities, performance optimization, and clean code principles.
